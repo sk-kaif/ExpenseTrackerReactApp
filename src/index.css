@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #e7eaf2;
+}
+.balanceCon{
+    background-image: url(./assets/BalanceBg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.incomeAmountCon{
+    background-color: rgba(120, 255, 154, 0.582);;
+    backdrop-filter: blur(75px);
+    box-shadow: 0px 0px 25px rgba(234, 255, 239, 0.486);
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.incomeAmountCon:hover{
+    background-color: #78ff9aee;
+}
+
+.expensenAmountCon{
+    background-color: rgba(242, 27, 63, 0.23);
+    backdrop-filter: blur(75px);
+    box-shadow: 0px 0px 25px rgba(234, 255, 239, 0.486);
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.expensenAmountCon:hover{
+    background-color: #f21b3f75;
+}
+
+.input-feild:focus {
+    border-color: #5854D8;
+    outline: none;
+}
+
+.incomeB{
+    border-right: 6px solid #78ff9aee;
+}
+.expenseB{
+    border-right: 6px solid #f21b3f75;
+}
